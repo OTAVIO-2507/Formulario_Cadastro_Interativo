@@ -2,8 +2,7 @@
 Um formulário de cadastro moderno e responsivo, focado na experiência do usuário (UX). O projeto inclui validação de campos (como confirmação e tamanho mínimo de senha), feedback visual imediato ao focar nos campos e uma animação completa no botão de envio (Loading → Sucesso) para simbolizar o processamento dos dados e limpar o formulário ao final.
 
 ## 🌐 Visualize o projeto:
-Ver Projeto Online
-(Observação: Lembre-se de substituir o link acima pelo endereço real do seu GitHub Pages após o deploy)
+[Ver Projeto Online](https://otavio-2507.github.io/Formulario_Cadastro_Interativo/)
 
 ## 🛠️ Tecnologias Utilizadas
 - HTML5: Estrutura semântica para o formulário e inclusão de elementos de animação (spinner, checkmark).
