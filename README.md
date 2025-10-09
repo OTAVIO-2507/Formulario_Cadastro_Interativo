@@ -22,4 +22,4 @@ Este projeto é totalmente client-side e não requer nenhuma configuração de s
 7. Mudar para um sinal de correto (Success).
 8. Exibirá a mensagem de sucesso e, ao clicar em OK, limpará todos os dados do formulário.
 
-Sem configurações extras – todas as funcionalidades são controladas por JavaScript e CSS.
+Sem configurações extras – todas as funcionalidades são controladas por JavaScript e CSS
