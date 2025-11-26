@@ -14,7 +14,7 @@ Um formulário de cadastro moderno e responsivo, focado na experiência do usuá
 Este projeto é totalmente client-side e não requer nenhuma configuração de servidor.
 
 1. Clone o Repositório: Baixe ou clone o código do projeto para sua máquina local.
-2. Abra no Navegador: Navegue até a pasta do projeto e abra o arquivo index.html no seu navegador de preferência (Chrome, Firefox, etc.).
+2. Abra no Navegador: Navegue até a pasta do projeto e abra o arquivo `index.html` no seu navegador de preferência (Chrome, Firefox, etc.).
 3. Interaja com os Campos: Teste a animação de foco: clique ou navegue (via Tab) pelos campos e observe as bordas ficarem brancas.
 4. Teste a Validação: Tente cadastrar com senhas que não coincidem ou que tenham menos de 8 caracteres. As mensagens de erro aparecerão abaixo dos campos.
 5. Teste a Animação de Sucesso: Preencha os campos corretamente e clique em Cadastrar. O botão:
