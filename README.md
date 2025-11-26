@@ -5,10 +5,10 @@ Um formulário de cadastro moderno e responsivo, focado na experiência do usuá
 **[Ver Projeto Online](https://otavio-2507.github.io/Formulario_Cadastro_Interativo/)**
 
 ## 🛠️ Tecnologias Utilizadas
-- HTML5: Estrutura semântica para o formulário e inclusão de elementos de animação (spinner, checkmark).
-- CSS3: Estilização moderna, responsividade, uso de backdrop-filter para o efeito "vidro embaçado" e implementação de animações avançadas (@keyframes e :focus) para o loading e highlight de campos.
-- JavaScript: Lógica de validação de senha, controle do estado do botão de envio (Normal, Loading, Success) e a funcionalidade de limpeza completa dos campos após o cadastro bem-sucedido.
-- Boxicons: Biblioteca de ícones utilizada para campos (usuário, senha, etc.) e o sinal de checkmark de sucesso.
+- **HTML5:** Estrutura semântica para o formulário e inclusão de elementos de animação (spinner, checkmark).
+- **CSS3:** Estilização moderna, responsividade, uso de backdrop-filter para o efeito "vidro embaçado" e implementação de animações avançadas (@keyframes e :focus) para o loading e highlight de campos.
+- **JavaScript:** Lógica de validação de senha, controle do estado do botão de envio (Normal, Loading, Success) e a funcionalidade de limpeza completa dos campos após o cadastro bem-sucedido.
+- **Boxicons:** Biblioteca de ícones utilizada para campos (usuário, senha, etc.) e o sinal de checkmark de sucesso.
 
 ## 🚀 Como Executar
 Este projeto é totalmente client-side e não requer nenhuma configuração de servidor.
