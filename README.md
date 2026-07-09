@@ -8,8 +8,6 @@ Formulário de cadastro focado em experiência do usuário: validação em tempo
 
 [![Demonstração online](https://img.shields.io/badge/demonstra%C3%A7%C3%A3o-online-2EA44F?style=for-the-badge)](https://otavio-2507.github.io/Formulario_Cadastro_Interativo/)
 
-[![Prévia do formulário](docs/preview.webp)](https://otavio-2507.github.io/Formulario_Cadastro_Interativo/)
-
 ## Visão geral
 
 O projeto explora os detalhes que tornam um formulário agradável de usar: cada campo responde ao foco com destaque visual, a senha é validada em tempo real (tamanho mínimo e confirmação) e o botão de envio percorre um ciclo completo de estados — normal, carregando e sucesso — antes de limpar o formulário. O visual usa efeito de vidro fosco (backdrop-filter) sobre imagem de fundo.
@@ -45,14 +43,12 @@ Abra o arquivo `index.html` no navegador. O projeto é totalmente client-side, s
 ```
 Formulario_Cadastro_Interativo/
 ├── index.html              Página do formulário
-├── src/
-│   ├── javascript/
-│   │   └── script.js       Validação e estados do botão
-│   ├── style/
-│   │   └── style.css       Estilos, animações e efeito de vidro
-│   └── img/                Imagens de fundo
-└── docs/
-    └── preview.webp        Imagem de prévia do README
+└── src/
+    ├── javascript/
+    │   └── script.js       Validação e estados do botão
+    ├── style/
+    │   └── style.css       Estilos, animações e efeito de vidro
+    └── img/                Imagens de fundo
 ```
 
 ## Autor
