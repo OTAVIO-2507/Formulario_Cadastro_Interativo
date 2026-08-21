@@ -8,7 +8,9 @@ Formulário de cadastro focado em experiência do usuário: validação em tempo
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
 
-[![Demonstração online](https://img.shields.io/badge/demonstra%C3%A7%C3%A3o-online-2EA44F?style=flat-square)](https://otavio-2507.github.io/Formulario_Cadastro_Interativo/)
+![Prévia do projeto](src/img/preview.jpg)
+
+**[Ver Projeto](https://otavio-2507.github.io/Formulario_Cadastro_Interativo/)**
 
 </div>
 
@@ -24,6 +26,16 @@ O projeto explora os detalhes que tornam um formulário agradável de usar: cada
 - Limpeza automática dos campos após o cadastro bem-sucedido
 - Efeito de vidro fosco com `backdrop-filter` sobre imagem de fundo
 - Layout responsivo para desktop e dispositivos móveis
+
+## Decisões de projeto
+
+Algumas escolhas que não são óbvias pelo código:
+
+**O formulário só é limpo depois da confirmação visual.** `form.reset()` não acontece no envio, e sim ao final da sequência de estados do botão: normal, `loading` por 1,5s, `success` com o checkmark por mais 1,5s, e só então o alerta e a limpeza. Zerar os campos no instante do clique deixaria a pessoa sem saber se o cadastro passou ou se a tela apenas se apagou.
+
+**O olho da senha troca a classe do ícone, não o elemento.** `togglePassword` alterna entre `bxs-show` e `bxs-hide` no mesmo `<i>`, em vez de esconder um ícone e exibir outro. Um nó só significa nenhum reflow no clique e nenhum risco dos dois aparecerem juntos por um quadro.
+
+**A validação roda antes de qualquer animação.** Tamanho mínimo de senha e conferência entre os dois campos são síncronos e, se falharem, o botão nem entra em `loading` — não existe estado de carregamento que termine em erro, que é o que faz um formulário parecer travado.
 
 ## Tecnologias
 
