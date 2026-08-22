@@ -10,7 +10,8 @@ Formulário de cadastro focado em experiência do usuário: validação em tempo
 
 ![Prévia do projeto](src/img/preview.jpg)
 
-**[Ver Projeto](https://otavio-2507.github.io/Formulario_Cadastro_Interativo/)**
+[![Ver projeto](https://img.shields.io/badge/Ver_projeto-3642B5?style=for-the-badge&logo=googlechrome&logoColor=white)](https://otavio-2507.github.io/Formulario_Cadastro_Interativo/)
+[![Código](https://img.shields.io/badge/C%C3%B3digo-000000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/OTAVIO-2507/Formulario_Cadastro_Interativo)
 
 </div>
 
